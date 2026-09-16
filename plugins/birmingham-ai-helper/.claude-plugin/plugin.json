@@ -1,0 +1,8 @@
+{
+  "name": "birmingham-ai-helper",
+  "description": "Helpers for running Birmingham AI software engineering breakouts.",
+  "author": {
+    "name": "Nick Ramos",
+    "email": "nick@devclarity.ai"
+  }
+}

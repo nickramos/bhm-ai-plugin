@@ -1,9 +1,9 @@
 {
-  "name": "plugin-marketplace-starter",
-  "description": "Starter marketplace — fork this, rename it, and use it to distribute your team's Claude Code skills.",
+  "name": "bhm-ai-plugin",
+  "description": "",
   "owner": {
-    "name": "Your Company",
-    "email": "you@example.com"
+    "name": "Nick",
+    "email": "nick@devclarity.ai"
   },
   "plugins": [
     {
@@ -17,6 +17,12 @@
       "source": "./plugins/dev-toolkit",
       "description": "Three small, genuinely useful dev skills (commit-message, pr-summary, changelog-entry). Copy it as a template for your own multi-skill plugins.",
       "category": "productivity"
+    },
+    {
+      "name": "birmingham-ai-helper",
+      "source": "./plugins/birmingham-ai-helper",
+      "description": "Helpers for running Birmingham AI software engineering breakouts. Includes breakout-prep, which builds a timed run-of-show, discussion prompts, and a pre-session checklist.",
+      "category": "facilitation"
     }
   ]
 }
